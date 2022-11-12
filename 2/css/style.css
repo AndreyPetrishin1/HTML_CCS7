@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.coteiner{
+position: relative;
+width: 100vW;
+height: 100vh;
+}
+
+.menu{
+    width: 234px;
+    height: 256px;
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+margin: auto;
+border: 1px solid grey;
+background: grey;
+}
+.menu__item{
+	border: 1px solid darkgrey;
+	margin: 4px;
+    font-size: 13px;
+    padding: 7px;
+    cursor: pointer;
+    
+}
+.menu__item:hover{
+	background: black;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
